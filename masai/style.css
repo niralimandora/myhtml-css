@@ -1,0 +1,178 @@
+@font-face {
+    font-family: "mast";
+    src: url("./assets/fonts/Ubuntu/Ubuntu-Regular.ttf");
+}
+
+body{
+    font-family: "mast";
+    background-color: black;
+}
+
+#main h1, h3, p{
+    text-align: center;
+    color: white;
+}
+
+.line{
+    margin: 0px 100px;
+    gap: 100px;
+    word-spacing: 15px;
+}
+
+#prateek{
+    height: 300px;
+    width: 23%;
+    position: relative;
+    background-image: url("https://masai-website-images.s3.ap-south-1.amazonaws.com/prateek_6232b84d8b.jpeg");
+    background-size: cover;
+    border-radius: 20px;
+    display: inline-block;
+}
+
+#nrupul{
+    height: 300px;
+    width: 23%;
+    position: relative;
+    background-image: url("https://masai-website-images.s3.ap-south-1.amazonaws.com/Nrupul_d3fe3b289a.jpg");
+    background-size: cover;
+    border-radius: 20px;
+    display: inline-block;
+}
+
+#yogesh{
+    height: 300px;
+    width: 23%;
+    position: relative;
+    background-image: url("https://masai-website-images.s3.ap-south-1.amazonaws.com/Yogesh_52e31f5560.jpg");
+    background-size: cover;
+    border-radius: 20px;
+    display: inline-block;
+}
+
+#keshav{
+    height: 300px;
+    width: 23%;
+    position: relative;
+    background-image: url("https://masai-website-images.s3.ap-south-1.amazonaws.com/keshav_misra_203a893693.jpeg");
+    background-size: cover;
+    border-radius: 20px;
+    display: inline-block;
+}
+#ishita{
+    height: 300px;
+    width: 23%;
+    position: relative;
+    background-image: url("https://masai-website-images.s3.ap-south-1.amazonaws.com/1614198786109_Ishita_Chanana_d3d8c56ab0.jpg");
+    background-size: cover;
+    border-radius: 20px;
+    display: inline-block;
+}
+#amit{
+    height: 300px;
+    width: 23%;
+    position: relative;
+    background-image: url("https://masai-website-images.s3.ap-south-1.amazonaws.com/amit_saharan_copy_Amit_Kumar_0650e4da7d.png");
+    background-size: cover;
+    border-radius: 20px;
+    display: inline-block;
+}
+#aman{
+    height: 300px;
+    width: 23%;
+    position: relative;
+    background-image: url("https://masai-website-images.s3.ap-south-1.amazonaws.com/aman_fbbc8625a4.jpg");
+    background-size: cover;
+    border-radius: 20px;
+    display: inline-block;
+}
+#mohamad{
+    height: 300px;
+    width: 23%;
+    position: relative;
+    background-image: url("https://masai-website-images.s3.ap-south-1.amazonaws.com/Mohammed_Mayan_1_5da12dc153.jpg");
+    background-size: cover;
+    border-radius: 20px;
+    display: inline-block;
+}
+#anurag{
+    height: 300px;
+    width: 23%;
+    position: relative;
+    background-image: url("https://masai-website-images.s3.ap-south-1.amazonaws.com/Anurag_Singh_996e7426ac.JPG");
+    background-size: cover;
+    border-radius: 20px;
+    display: inline-block;
+}
+#kishore{
+    height: 300px;
+    width: 23%;
+    position: relative;
+    background-image: url("https://masai-website-images.s3.ap-south-1.amazonaws.com/IMG_2262_Kishore_Acharya_098d2f5a9c.jpg");
+    background-size: cover;
+    border-radius: 20px;
+    display: inline-block;
+}
+#rohit{
+    height: 300px;
+    width: 23%;
+    position: relative;
+    background-image: url("https://masai-website-images.s3.ap-south-1.amazonaws.com/Rohit_Gupta_23dba08fbe.jpg");
+    background-size: cover;
+    border-radius: 20px;
+    display: inline-block;
+}
+#mayank{
+    height: 300px;
+    width: 23%;
+    position: relative;
+    background-image: url("https://masai-website-images.s3.ap-south-1.amazonaws.com/Mayank_Bhardwaj_46e9eaae75.jpg");
+    background-size: cover;
+    border-radius: 20px;
+    display: inline-block;
+}
+
+:root{
+    --color: white;
+}
+
+.name{
+    position: absolute;
+    color: var(--color);
+    bottom: 25%;
+    left: 20%;
+    font-weight: bolder;
+    font-size: x-large;
+    background-color: rgba(0, 0, 0, 0.285);    
+}
+
+.post{
+    position: absolute;
+    color: var(--color);
+    bottom: 14%;
+    left: 20%;
+    font-weight: bolder;
+}
+
+#icon{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    bottom: 10px;
+    left: 38%
+}
+
+#icon2{
+    position: absolute;
+    height: 20px;
+    width: 25px;
+    bottom: 10px;
+    right: 38%;
+}
+
+.linked{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    bottom: 10px;
+    left: 50%;
+}

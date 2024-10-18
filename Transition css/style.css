@@ -1,0 +1,72 @@
+body{
+    background-color:  #d9d9d9;
+}
+#main{
+    background-color: white;
+    border-radius: 20px;
+    height: 420px;
+    width: 230px;
+    text-align: center;
+    padding: 20px;
+    transition-duration: 1s;
+    position: absolute;
+    left: 41%;
+    top: 20%;
+    box-shadow: 5px 5px 20px black;
+}
+#main:hover{
+    height: 440px;
+    width: 250px;
+    box-shadow: 5px 5px 15px 0 teal;
+}
+#img{
+    height: 80px;
+    width: 80px;
+    background-image: url("https://tse3.mm.bing.net/th?id=OIP.r77VkpMa1feY1EZUtf1GbQHaD5&pid=Api&P=0&h=180");
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 20px 0px 0px 32%;
+}
+#main h2{
+    color: teal;
+}
+#main p::before{
+    content: "“";
+    font-size: 25px;
+    color: grey;
+}
+#main p::after{
+    content: "”";
+    font-size: 25px;
+    color: grey;
+}
+#main ul{
+    padding-left: 0px;
+    text-align: center;
+    list-style-type: none;
+    line-height: 30px;
+}
+#main li:nth-child(odd){
+    background-color: #f2f2f2;
+}
+#main li:nth-child(even){
+    background-color: #e6e6e6;
+}
+#main button{
+    background-color: blue;
+    color: white;
+    height: 30px;
+    width: 55px;
+    border-radius: 5px;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    position: relative;
+    bottom: -1.5%;
+}
+#main button:hover{
+    height: 35px;
+    width: 60px;
+    background-color: rgb(2, 2, 148);
+}

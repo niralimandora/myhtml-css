@@ -1,0 +1,224 @@
+#bgimg {
+
+    border: 1px solid black;
+    height: 650px;
+    width: 100%;
+    background-image: url("https://i.pinimg.com/originals/d9/e3/c4/d9e3c47736b67051378f4a242072c1c6.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+
+#logo {
+
+    /* border: 2px solid blue; */
+    background-color: black;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-size: larger;
+
+
+}
+h3{
+
+    font-size: 35px;
+}
+h2 {
+
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#heading {
+
+    /* border: 1px solid red; */
+    height: 50px;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+
+
+}
+
+#sproject {
+    /* border: 2px solid red; */
+    height: 850px;
+    width: 100%;
+
+
+}
+
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100px;
+}
+
+#div1 {
+
+    /* border: 2px solid black; */
+    height: 280px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#div1 div {
+    /* border: 1px solid red; */
+    width: 30%;
+    height: 250px;
+}
+
+#div2 {
+
+    /* border: 2px solid black; */
+    height: 280px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#div2 div{
+    /* border: 1px solid red; */
+    width: 30%;
+    height: 250px;
+}
+
+#div3 {
+
+    /* border: 2px solid black; */
+    height: 280px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#div3 div{
+    /* border: 1px solid red; */
+    width: 30%;
+    height: 250px;
+}
+
+#simg {
+
+    /* border: 1px solid rgb(0, 4, 255); */
+    height: 700px;
+    width: 100%;
+    background-image: url("https://wallpapers.com/images/hd/cool-black-and-white-aesthetic-554d1a6kopp21ioa.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+    
+
+#timg {
+       
+    background-image: url("https://wallpapers.com/images/hd/red-fire-background-ob9tbm4ly6r1n3pm.jpg");
+    height: 600px;
+    width: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: 50px;
+
+
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    width: 50%;  
+    margin: auto;
+}
+
+.form-title {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #000;
+    text-align: center;
+}
+
+.name-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.name-field {
+    width: 45%; overflow-x:;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 2px solid #000;
+    border-radius: 4px;
+    transition: border-color 0.3s;
+}
+
+input:focus, textarea:focus {
+    border-color: #888;
+    outline: none;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #000000;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #000000;
+}
+.footer {
+    background-color: #c70808; 
+    color: #fff; 
+    text-align: center; 
+    padding: 10px; 
+}
+
+.copyright {
+    font-size: 18px; 
+}

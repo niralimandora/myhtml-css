@@ -1,0 +1,32 @@
+.all
+{
+    border: 2px solid tomato;
+    display: flex;
+}
+.first{
+    display: inline-block;
+    width: 25%;
+    align-content: center;
+    border-left: 2px solid pink;
+    border-right: 10px solid pink;
+    padding-left: 20px;
+    align-self: center;
+}
+.second{
+    display: inline-block;
+    width: 25%;
+    align-content: center;
+    border-left: 2px solid pink;
+    border-right: 10px solid pink;
+    padding-left: 20px;
+    align-self: center;
+    margin-left: -5px;
+    
+}
+.sec{
+    display: flex;
+}
+.sec2{
+    display: flex;
+    
+}
